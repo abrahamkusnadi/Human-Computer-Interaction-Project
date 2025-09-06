@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar a:hover,
+.navbar .testi-active{
+    background-color: #6060B0;
+    border-radius: 50rem;
+    color: var(--bg-color);
+    transition: background 0.5s;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.3rem 10%;
+    background-color: #E1F2FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 12%;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+
+.testimonial-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.testimonial {
+    background-color: #6060B0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.testimonial-content {
+    padding: 20px;
+}
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6060B0;
+}
+
+.testimonial-info {
+    font-family: "Nunito", sans-serif;
+    color: #E1F2FA;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimonial-role {
+    font-size: 14px;
+}
+
+.testimonial-rating {
+    font-size: 14px;
+    color: #9d9d9d;
+    margin-top: 5px;
+}
+  
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #E1F2FA;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size:  18px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #6060B0;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.footer-col ul li a:hover{
+    color: darkblue;
+    padding-left: 10px;
+}
+
+.footer .container .row .footer-col .social img{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    background-color: #6060B0;
+    border-radius: 50%;
+}   
+
+.footer .container .row .footer-col .social img:hover{
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.footer .container .row .footer-col .online img{
+    height: 65px;
+    width: 70px;
+    margin: 0 10px 10px 0;
+}   
+
+
+.copyright {
+    margin-top: 70px;
+    color: black;
+    text-align: center;
+}
+
+/* scrollbar effect */
+::-webkit-scrollbar{
+    width: .6rem;
+    background-color: #E1F2FA ;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6060B0;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 15%;
+    }
+
+    .navbar a {
+        font-size: 1.3rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        width: 18%;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .header {
+        padding: 1.5rem 5%;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 25%;
+    }
+
+    .navbar a {
+        font-size: 0.9rem;
+        margin-left: 0.5rem;
+    }
+
+    .header {
+        padding: 1rem 3%;
+    }
+}
+
+/* for the product */
+@media (max-width: 768px) {
+    .testimonial-group {
+        grid-template-columns: 1fr; 
+    }
+}

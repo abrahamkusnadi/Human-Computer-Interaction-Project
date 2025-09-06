@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <img src="assets/Logo.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="Testimoni.html">Testimoni</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Register.html" class="register-active">Register</a>
+        </nav>
+    </header>
+    <section class="form-register-us">
+        <img src="assets/5600357.webp" alt="Register Image" class="register-image">
+        <div class="form-content">
+            <h2>Create New Account</h2>
+            <form method="get">
+                <label>Name </label>
+                <input type="text" id="name-data" required>
+                <p id="error-name"></p>
+
+                <label>Email </label>
+                <input type="email" id="email-data" required>
+                <p id="error-email"></p>
+
+                <label>Password </label>
+                <input type="password" id="password-data" required>
+                <p id="error-password"></p>
+
+                <label>Confirm Password </label>
+                <input type="password" id="conf-password-data" required>
+                <p id="error-conf-password"></p>
+                
+                <label>Date Of Birth </label>
+                <input type="date" id="dob-data" required>
+                <p id="error-dob"></p>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="agreement" required>
+                    <label>You must accept the EULA</label>
+                </div>
+
+                <div class="submit">
+                    <button type="button" onclick="validationForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./Register.js"></script>
+</body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Online Shop</h4>
+                <div class="online">
+                    <a href="#"><img src="assets/logo grabfood yogiancreative2.png" alt=""></a>
+                    <a href="#"><img src="assets/Gofood-Logo-650x366.png" alt=""></a>
+                    <a href="#"><img src="assets/shopee-food-logo-F37D8AD493-seeklogo.com.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt=""></a>
+                    <a href="https://x.com/"><img src="assets/twitter.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="assets/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Catering's ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+
+</html>
