@@ -35,7 +35,9 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Fully responsive for desktop, tablet, and mobile.  
 
 📷 **Screenshot:**  
+#### Header
 ![Header](screenshots/Header.png)
+#### Footer
 ![Footer](screenshots/Footer.png)
 ---
 
