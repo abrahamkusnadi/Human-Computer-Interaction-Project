@@ -47,8 +47,9 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Recommended products displayed based on customer favorites.  
 
 📷 **Screenshot:**  
-![Home Page](screenshots/home.png)
-
+![Home Page](screenshots/Home_1.png)
+![Home Page](screenshots/Home_2.png)
+![Home Page](screenshots/Home_3.png)
 ---
 
 ### 3. Product Page
@@ -59,8 +60,8 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Fully responsive for tablets and smartphones.  
 
 📷 **Screenshot:**  
-![Product Page](screenshots/products.png)
-
+![Product Page](screenshots/Product_1.png)
+![Product Page](screenshots/Product_2.png)
 ---
 
 ### 4. Testimonial Page
@@ -69,7 +70,7 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Designed to build trust and credibility.  
 
 📷 **Screenshot:**  
-![Testimonial Page](screenshots/testimonial.png)
+![Testimonial Page](screenshots/Testimoni.png)
 
 ---
 
@@ -80,8 +81,8 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Showcases company services with hover effects highlighting unique strengths.  
 
 📷 **Screenshot:**  
-![About Us Page](screenshots/about.png)
-
+![About Us Page](screenshots/AboutUs_1.png)
+![About Us Page](screenshots/AboutUs_2.png)
 ---
 
 ### 6. Registration Page
@@ -95,7 +96,7 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Form is fully responsive and validates inputs before submission.  
 
 📷 **Screenshot:**  
-![Registration Page](screenshots/register.png)
+![Registration Page](screenshots/Register.png)
 
 ---
 
@@ -104,7 +105,7 @@ The project implements a responsive catering website using **HTML, CSS, and Java
 - Layouts adjust dynamically with media queries in CSS.  
 
 📷 **Screenshot Example:**  
-![Mobile Responsive](screenshots/responsive.png)
+![Mobile Responsive](screenshots/Responsive.png)
 
 ---
 
